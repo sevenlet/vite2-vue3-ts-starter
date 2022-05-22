@@ -1,0 +1,68 @@
+{
+  "parser": "vue-eslint-parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "vue/setup-compiler-macros": true
+  },
+
+  "extends": [
+    "prettier",
+    "airbnb-base",
+    // 插件中的配置
+    "plugin:vue/vue3-essential",
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": ["vue", "@typescript-eslint", "prettier"],
+  "globals": {
+    "aversion": false,
+    "appConfig": false
+  },
+  // 检测规则
+  "rules": {
+    // 修改函数中的参数 仅限下列中的变量才可以修改（请求接口、vuex中的state）
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": [
+//          "el",
+//          "mods",
+//          "req", // axios requests
+//          "request", // axios requests
+//          "config", // axios requests
+//          "res", // axios responses
+//          "response", // axios responses
+//          "state", // vuex state
+//          "styleContainer"
+        ]
+      }
+    ],
+    // 允许使用 ++ --
+    "no-plusplus": [
+      "off",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    // 配置在插件中定义的规则，必须在规则ID前加上插件名称和 /  例如："vue/" "import/"
+    // 关闭省略扩展名时的报错
+    "import/extensions": 0,
+    // 关闭html文件末尾报错 正常应该是检测只能在template内部注释的问题
+    "vue/comment-directive": 0,
+    "vue/multi-word-component-names": 0,
+    // 关闭未使用声明变量的报错
+    "no-unused-vars": 0,
+    "import/no-unresolved": 0,
+//    "vue/html-self-closing": 0,
+    "max-len": ["error", { "code": 160 }]
+  }
+}

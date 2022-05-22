@@ -1,0 +1,67 @@
+/* 通用样式 */
+html,
+body {
+  height: 100%;
+  font-size: var(--base-font-size);
+  zoom: 1;
+}
+
+div {
+  outline: none;
+}
+
+/** **************** 修改type=number的样式 ******************** */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/** ******************************************************** */
+
+/* ********** 修改谷歌浏览器记住密码后input默认样式 ********** */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 50000s ease-in-out 0s;
+  -webkit-text-fill-color: #ededed !important;
+}
+
+/** ******************************************************** */
+
+/** ****************** 浏览器滚动条样式修改 ******************* */
+
+/* 修改滚动条样式 */
+.ths-container-main,
+.data-list {
+  overflow-y: auto;
+}
+
+/* // 滚动条整体样式 */
+::-webkit-scrollbar {
+  /* // 纵向滚动条的宽度 */
+  width: 0;
+
+  /* // 横向滚动条的高度 */
+  height: 5px;
+}
+
+/* // 滚动条的轨道的样式 */
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #077bd1;
+}
+
+/* // 滚动条的滑块样式 */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #22dafa;
+}
+
+/** ******************************************************** */

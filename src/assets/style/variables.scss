@@ -1,0 +1,104 @@
+:root {
+  --base-font-size: 16px;
+
+  /** 预设主题色列表 **/
+
+  /* 文字&图标颜色 */
+  --t-font-color-gy4: rgba(0, 0, 0, 0.26);
+  --t-font-color-gy3: rgba(0, 0, 0, 0.4);
+  --t-font-color-gy2: rgba(0, 0, 0, 0.6);
+  --t-font-color-gy1: rgba(0, 0, 0, 0.9);
+  --t-font-color-wh4: rgba(255, 255, 255, 0.22);
+  --t-font-color-wh3: rgba(255, 255, 255, 0.35);
+  --t-font-color-wh2: rgba(255, 255, 255, 0.55);
+  --t-font-color-wh1: rgba(255, 255, 255, 0.9);
+
+  /* 中性色版 */
+  --t-white: #FFF;
+  --t-transparent: transparent;
+  --t-gray1: #F3F3F3;
+  --t-gray2: #EEE;
+  --t-gray3: #E7E7E7;
+  --t-gray4: #DCDCDC;
+  --t-gray5: #C5C5C5;
+  --t-gray6: #A6A6A6;
+  --t-gray7: #8B8B8B;
+  --t-gray8: #777;
+  --t-gray9: #5E5E5E;
+  --t-gray10: #4B4B4B;
+  --t-gray11: #383838;
+  --t-gray12: #2C2C2C;
+  --t-gray13: #242424;
+  --t-gray14: #181818;
+
+  /* 辅助颜色1 */
+  --t-brand1: #ECF2FE;
+  --t-brand2: #D4E3FC;
+  --t-brand3: #BBD3FB;
+  --t-brand4: #96BBF8;
+  --t-brand5: #699EF5;
+  --t-brand6: #4787F0;
+  --t-brand7: #266FE8;
+  --t-brand8: #0052D9;
+  --t-brand9: #0034B5;
+  --t-brand10: #001F97;
+
+  /* 辅助颜色2 */
+  --t-error1: #FDECEE;
+  --t-error2: #F9D7D9;
+  --t-error3: #F8B9BE;
+  --t-error4: #F78D94;
+  --t-error5: #F36D78;
+  --t-error6: #E34D59;
+  --t-error7: #C9353F;
+  --t-error8: #B11F26;
+  --t-error9: #951114;
+  --t-error10: #680506;
+
+  /* 辅助颜色3 */
+  --t-warning1: #FEF3E6;
+  --t-warning2: #F9E0C7;
+  --t-warning3: #F7C797;
+  --t-warning4: #F2995F;
+  --t-warning5: #ED7B2F;
+  --t-warning6: #D35A21;
+  --t-warning7: #BA431B;
+  --t-warning8: #9E3610;
+  --t-warning9: #842B0B;
+  --t-warning10: #5A1907;
+
+  /* 辅助颜色4 */
+  --t-success1: #E8F8F2;
+  --t-success2: #BCEBDC;
+  --t-success3: #85DBBE;
+  --t-success4: #48C79C;
+  --t-success5: #00A870;
+  --t-success6: #078D5C;
+  --t-success7: #067945;
+  --t-success8: #056334;
+  --t-success9: #044F2A;
+  --t-success10: #033017;
+
+  /** 预设 radius 列表 **/
+  --t-border-radius-small: 2px;
+  --t-border-radius-base: 4px;
+  --t-border-radius-round: 20px;
+  --t-border-radius-container: 2px;
+
+  /** 预设 font-size 列表 **/
+  --t-text-size-small: 12px;
+  --t-text-size-normal: 14px;
+  --t-text-size-large: 16px;
+
+  /** 预设 font-weight 列表 **/
+  --t-text-weight-400: 400;
+  --t-text-weight-500: 500;
+  --t-text-weight-600: 600;
+  --t-text-weight-normal: normal;
+  --t-text-weight-bold: bold;
+  --t-text-weight-bolder: bolder;
+
+  /** 预设 border-width 列表 **/
+  --t-border-width-base: 1px;
+  --t-border-width-none: 0;
+}
