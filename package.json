@@ -21,6 +21,7 @@
     "pinia": "^2.0.0-rc.10",
     "vite": "^2.5.1",
     "vite-plugin-compression": "^0.5.1",
+    "unplugin-vue-components": "^0.19.3",
     "vue": "^3.2.6",
     "vue-router": "4"
   },
