@@ -16,12 +16,12 @@
   "dependencies": {
     "@vitejs/plugin-vue": "^1.6.0",
     "axios": "^0.27.2",
-    "naive-ui": "^2.29.0",
+    "element-plus": "^2.2.2",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
+    "unplugin-vue-components": "^0.19.3",
     "vite": "^2.5.1",
     "vite-plugin-compression": "^0.5.1",
-    "unplugin-vue-components": "^0.19.3",
     "vue": "^3.2.6",
     "vue-router": "4"
   },
@@ -53,6 +53,7 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.0.0",
     "typescript": "^4.3.2",
+    "unplugin-auto-import": "^0.8.5",
     "vue-tsc": "^0.2.2"
   },
   "husky": {

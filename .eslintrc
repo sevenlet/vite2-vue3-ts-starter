@@ -38,7 +38,7 @@
 //          "mods",
 //          "req", // axios requests
 //          "request", // axios requests
-//          "config", // axios requests
+         "config", // axios requests
 //          "res", // axios responses
 //          "response", // axios responses
 //          "state", // vuex state
@@ -63,6 +63,7 @@
     "no-unused-vars": 0,
     "import/no-unresolved": 0,
 //    "vue/html-self-closing": 0,
-    "max-len": ["error", { "code": 160 }]
+    "max-len": ["error", { "code": 160 }],
+    "@typescript-eslint/no-unused-vars": 0
   }
 }
