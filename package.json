@@ -19,15 +19,18 @@
     "element-plus": "^2.2.2",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
+    "unplugin-icons": "^0.14.3",
     "unplugin-vue-components": "^0.19.3",
     "vite": "^2.5.1",
     "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-inspect": "^0.5.0",
     "vue": "^3.2.6",
     "vue-router": "4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
+    "@iconify-json/ep": "^1.1.4",
     "@types/nprogress": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",

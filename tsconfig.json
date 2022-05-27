@@ -13,6 +13,9 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    // "types": [
+    //   "unplugin-icons/types/vue",
+    // ],
     "noUnusedLocals": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

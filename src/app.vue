@@ -4,7 +4,12 @@
     :z-index="zIndex"
     :locale="locale"
   >
+    <!-- 使用图标 -->
+    <i-ep-edit color="#409EFC" />
+
+    <!-- 使用element-plus -->
     <el-button type="primary">
+      <i-ep-loading color="#fff" />
       按钮
     </el-button>
     <router-view />
